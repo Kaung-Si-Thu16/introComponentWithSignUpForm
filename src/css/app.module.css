@@ -1,0 +1,21 @@
+.container {
+    background-image: url("../images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #FF7978;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 480px) {
+    .container {
+        background-image: url("../images/bg-intro-mobile.png");
+        flex-flow: column;
+        height: auto;
+    }
+}

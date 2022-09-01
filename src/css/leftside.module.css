@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.firstLine {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    width: 400px;
+    letter-spacing: 1px;
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+
+.lastLine {
+    color: hsl(0, 0%, 90%);
+    font-size: 16px; 
+    width: 530px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .firstLine {
+        width: 240px;
+        margin: 0;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .lastLine {
+        width: 280px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+}
